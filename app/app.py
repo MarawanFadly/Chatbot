@@ -99,7 +99,7 @@ def parse_text_to_dict(text):
 # ---- Generate dictionary ----
 if prompt:
     parsed_dict = parse_text_to_dict(prompt)
-    st.markdown("### 🗂 Parsed Dictionary:")
+    st.markdown("# Dictionary:")
     st.write(parsed_dict)
     
     
