@@ -1,6 +1,5 @@
 from openai import OpenAI
 import streamlit as st
-import os
 
 client = OpenAI(
     api_key="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",
